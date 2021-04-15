@@ -11,8 +11,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>TA Start</title>
     </head>
-    <body>
-        <h1>My TA labs</h1>
+    <body> 
+       <h1>My TA labs</h1>
         <p>This is my labs</p>
 
         <form action="lab1.jsp">

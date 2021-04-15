@@ -4,6 +4,7 @@
     Author     : admin
 --%>
 
+<%@page import="fit.knu.ist.TA.MtFirstJavaClass"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -11,10 +12,26 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
+    <body>  
+
         <h1>This my lab1</h1>
+
+        <%!MtFirstJavaClass nFJC = new MtFirstJavaClass(5);%>
+
+        <%
+         int x = nFJC.getMyInt();
+         
+          x+=3;
+          x%=3;
+          
+        %>
         
+        <p>8mod3 = <%=x%></p>
+
+
+
+
         <a href="index.jsp">Home</a>
-        
+
     </body>
 </html>
