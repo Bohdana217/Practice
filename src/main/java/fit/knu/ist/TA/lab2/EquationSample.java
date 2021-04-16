@@ -22,5 +22,7 @@ public int solve(int x) {
 if (x==0) { return Integer.MAX_VALUE;}
 
 return 10/x;
+
+
 }
 }
